@@ -1,0 +1,200 @@
+*{
+    margin:0;  
+    padding:0;   
+    box-sizing: border-box;
+    color: wheat;
+}
+main{
+    font-family: sans-serif;
+}
+.landing{
+    min-height: 100vh;
+    background: rgb(255, 89, 29);
+    background-size: cover;
+    padding: 1rem 5rem;
+}
+
+nav{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.lin{
+    padding-left: 10rem;
+    color: blanchedalmond;
+}
+.lin a{
+    text-decoration: none;
+}
+.logo{
+font-family: lobster;
+font-size: 1.2rem;
+}
+
+.big-text{
+font-family: lobster;   
+font-size: xx-large;
+position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.second{
+    top:40%;
+}
+.intro{
+    background: #000;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    background: #000;
+    overflow: hidden;
+}
+.hide span{
+    display: inline-block;
+    transform: translateX(-100%);
+}
+.slider{
+    background: rgb(236, 199, 34);
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+}
+.intro-text{
+    font-family: sans-serif;
+    font-size: 3rem;
+    color:#fff;
+    
+}
+
+
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    background-color: yellowgreen;
+    color: white;
+    padding:5px;
+    border:0;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgb(28, 145, 44);
+    transition: 0.3s;
+}
+form input{
+    border:0;
+    padding:5px;
+    margin: 5px;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    padding:5px;
+    border:0;
+    cursor: pointer;
+}
+.check-btn{
+    background-color: yellowgreen;
+    color: white;
+    padding:5px;
+    border:0;
+    cursor: pointer;
+}
+.small{
+    font-size: 1rem;
+    top:97%;
+}
+.logos{
+    left: 10%;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo{
+    margin: 0.5rem;
+    background: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    top:5rem;
+}
+
+
+
+.todo li{
+    flex: 1;
+    padding:0rem 0.5rem;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.right{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+
+select{
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.filter-todo{
+margin:5px;
+position: relative;
+overflow: hidden;
+cursor: pointer;
+padding:5px;
+color: black;
+}
+option{
+    color: black;
+}
+
+input{
+    color: black;
+}
+li{
+    color: black;
+
+}

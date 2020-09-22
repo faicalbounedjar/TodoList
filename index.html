@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <main>
+        <section class="landing">
+            <nav class="nav">
+                
+                    <h1 class="logo">My Todo</h1>
+                    <ul class="nav-links">
+                        <li class="lin"><a href="#">home</a></li>
+                        <li class="lin"><a  href="./contact-page.html">contact</a></li>
+                    </ul>
+                
+            </nav>
+        
+        <h2 class="big-text">do your homework buddy</h2>
+        <h3 class="big-text small">please make sure to delete the checked ones once you are done for the day</h3>
+        <h3 class="big-text small logos">made by bounedjar faiçal</h3>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <input placeholder="type here" type="text" class="todo-input">
+            <button class="todo-btn" type="submit">
+                add
+            </button>
+            <select name="todos" class="filter-todo">
+                <option value="all">all</option>
+                <option class='chk' value="completed">completed</option>
+                <option class='unchk' value="uncompleted">uncompleted</option>
+            </select>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
+        </div>
+    
+        <script src="./todolist.js"></script>
+        </section>
+    </main>
+    <div class="intro">
+        <div class="intro-text">
+            <h1 class="hide">
+                <span class="text">Be creative
+
+                </span>
+            </h1>
+            <h1 class="hide">
+                <span class="text">
+                    Not just active
+                </span>
+            </h1>
+        </div>
+    </div>
+    <div class="slider"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
+</body>
+</html>
